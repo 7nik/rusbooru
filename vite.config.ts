@@ -23,6 +23,7 @@ export default defineConfig({
                 downloadURL: "https://github.com/7nik/rusbooru/releases/latest/download/rusbooru.user.js",
                 match: [
                     "https://*.donmai.us/*",
+                    "https://donmai.moe/",
                     "https://aibooru.online/*",
                 ],
                 connect: "anime-pictures.net",
