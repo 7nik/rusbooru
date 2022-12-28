@@ -1,0 +1,6 @@
+.non-translated {
+    text-decoration: underline dotted var(--error-color, error);
+}
+.not-matching:not(#id) {
+    text-decoration: line-through;
+}
